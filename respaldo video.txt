@@ -1,0 +1,57 @@
+<body>
+    <div class="padre">
+        <div class="hijos hijo1">Lunes</div>
+        <div class="hijos hijo2">Martes</div>
+        <div class="hijos hijo3">Miércoles</div>
+        <div class="hijos hijo4">Jueves</div>
+        <div class="hijos hijo5">Viernes</div>
+        <div class="hijos hijo6">Sábado</div>
+        <div class="hijos hijo7">Domingo</div>
+    </div>
+    <div class="x"></div>
+    <div class="y"></div>
+</body>
+
+-----------------------------------------------
+
+.padre{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+    flex-flow: row wrap;
+    
+}
+.martes{
+    flex-grow: 0;
+    /* order: 2; */
+    order: -1;
+}
+.miercoles{
+    /* flex-basis: 300px;
+    flex-shrink: 1; */
+    flex: 0 1 300px;
+    order: 2;
+}
+.viernes{
+    order: 1;
+}
+
+---------------------------------------------
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+	align-self:
+	flex-grow
+	flex-basis
+	flex-shrink
+	flex
+    flex-direction: row;
+	(mas dias)
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-flow: row wrap;
+ 	order

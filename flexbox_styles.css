@@ -1,0 +1,17 @@
+.padre{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+.martes{
+    flex-grow: 0;
+    order: -1;
+}
+.miercoles{
+    flex: 0 1 300px;
+    order: -2;
+}
